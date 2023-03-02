@@ -18,6 +18,7 @@ export default function About() {
 
             }); 
             setBtnText("Enable Dark Mode")
+            
         }
         else{
             setMyStyle({
