@@ -38,7 +38,7 @@ export default function About() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              Who created TextUtils?
             </button>
           </h2>
           <div
@@ -48,15 +48,8 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the first item's accordion body.</strong>
-              It is shown by default, until the collapse plugin adds the
-              appropriate classes that we use to style each element. These
-              classes control the overall appearance, as well as the showing and
-              hiding via CSS transitions. You can modify any of this with custom
-              CSS or overriding our default variables. It's also worth noting
-              that just about any HTML can go within the{" "}
-              <code>.accordion-body</code>, though the transition does limit
-              overflow.
+              <p>TextUtils was made as a part of learning React.
+              While building this a noob developer understood how she can add diffrent components and add stunning features ,and additionally use React Router</p>
             </div>
           </div>
         </div>
@@ -71,7 +64,7 @@ export default function About() {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+              What TextUtils can do ?
             </button>
           </h2>
           <div
@@ -81,15 +74,9 @@ export default function About() {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the second item's accordion body.</strong>
-              It is hidden by default, until the collapse plugin adds the
-              appropriate classes that we use to style each element. These
-              classes control the overall appearance, as well as the showing and
-              hiding via CSS transitions. You can modify any of this with custom
-              CSS or overriding our default variables. It's also worth noting
-              that just about any HTML can go within the{" "}
-              <code>.accordion-body</code>, though the transition does limit
-              overflow.
+              <strong>This is a small project based out of react.</strong>
+              <p>TextUtils is a React-project which can perform small 
+                functions like converting the text to upper case </p>
             </div>
           </div>
         </div>
