@@ -5,7 +5,7 @@ import About from './components/About'
 import  React, { useState } from 'react';
 import Alert from './components/Alert';
 // import React from "react";
-import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 
@@ -56,7 +56,9 @@ function App() {
         </div> */}
         <div className="container my-3">
           <Routes>
-            <Route path="/about" element={<About />}>
+            <Route path="/about" element={
+            <About mode={mode}/>
+            }>
             </Route>
             <Route path="/" element={<TextForm heading="Enter text to analyze"  mode={mode} showAlert={showAlert} />}>
             </Route>
